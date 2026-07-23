@@ -1,0 +1,49 @@
+
+
+
+
+
+
+What is CSS Grid and Why Do We Use It – Introduction to CSS Grid, two-dimensional layouts, advantages, and use cases.
+Enabling Grid with display: grid – Creating a grid container and understanding grid items.
+*Grid Container vs Grid Items – Difference between the parent grid container and its child elements.
+
+*Grid Template Columns & Rows – Defining the number and size of columns and rows.
+
+*Grid Gap (gap, row-gap, column-gap) – Adding spacing between rows and columns.
+
+*Fraction (fr) Unit – Creating flexible and responsive column and row sizes.
+*Grid Lines & Item Placement – Positioning items using grid lines and spans.
+*Repeat Function (repeat()) – Simplifying repetitive column and row definitions.
+
+*Justify Items – Aligning grid items horizontally within their cells.
+*Align Items – Aligning grid items vertically within their cells.
+*Justify Content – Aligning the entire grid horizontally inside the container.
+*Align Content – Aligning the entire grid vertically inside the container.
+
+Minmax Function (minmax()) – Setting minimum and maximum sizes for responsive layouts.
+
+
+Place Content – Shorthand for aligning the entire grid in both directions.
+/* Shorthand for   justify-content and align-content */
+
+Place Items – Shorthand for aligning items horizontally and vertically.
+/* place-items: center center; */
+
+
+Justify Self – Overriding horizontal alignment for a single grid item.
+
+Align Self – Overriding vertical alignment for a single grid item.
+Place Self – Shorthand for aligning an individual grid item.
+
+Auto-Fill & Auto-Fit – Automatically adjusting the number of columns based on available space.
+
+Implicit vs Explicit Grid – Understanding automatically created grids versus manually defined grids.
+
+Grid Auto Flow – Controlling how automatically placed items are arranged.
+
+Grid Order & Layering – Reordering items and controlling overlapping with z-index.
+
+Nested Grid Layouts – Creating grids inside other grid containers.
+
+Responsive Grid Layouts – Building responsive designs using Grid, minmax(), auto-fit, and media

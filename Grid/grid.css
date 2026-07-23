@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid-items {
+  background-color: red;
+  border: 1px solid;
+}
+
+#grid-container {
+  /* To Display Grid */
+  width: 90vw;
+  height: 80vh;
+  background-color: rgb(185, 195, 191);
+  border: 1px solid red;
+  display: grid;
+  /* Gap - Grid Lines Spacing  */
+  /* row-gap: 10px;
+  column-gap: 20px; */
+  gap: 20px;
+
+  /* How to make Columns and Rows */
+  /* Tell the width of the cells */
+  /* grid-template-columns: 100px 150px 100px 150px; */
+  grid-template-columns: repeat(4, 100px);
+
+  /* Tell the height of each rows */
+  grid-template-rows: repeat(4, 50px);
+
+  /* We're are using justify content : in grid to align Grid Container */
+  /* justify-content: right; */
+
+  /* Shorthand for   justify-content and align-content */
+  place-content: center end;
+
+  /* Shorthand for   justify-items and align-items */
+  /* place-items: center center; */
+  /*
+  align-items: start;
+  justify-items: start;
+
+  */
+  /* place-items: start center; */
+}
